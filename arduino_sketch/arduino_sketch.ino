@@ -3,7 +3,7 @@
  
 char ssid[] = "wifi name";
 char password[] = "wifi pw";
-const char* mqtt_server = "192.168.10.56"; //broker
+const char* mqtt_server = "localhost"; //broker
 
 WiFiClient espClient;
 PubSubClient client(espClient);
